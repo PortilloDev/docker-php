@@ -1,0 +1,21 @@
+{
+    "name": "root/www",
+    "description": "php 8",
+    "type": "phpunit",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Root\\Www\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ivan Portillo",
+            "email": "ipp_1981@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
